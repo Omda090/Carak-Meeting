@@ -56,6 +56,7 @@ namespace Carak_Meeting.Controllers
 
 
         // PUT api/<CarakController>/5
+        //Omda
         [HttpPut("updateCarak")]
         public async Task<IActionResult> UpdateCarak(int id, CarakDto userCarak)
         {
